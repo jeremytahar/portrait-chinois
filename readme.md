@@ -1,5 +1,6 @@
-Lien de mon portrait chinois: https://etudiant.u-pem.fr/~jeremy.tahar/portrait-chinois/
+Lien de mon portrait chinois sur le serveur universitaire: https://etudiant.u-pem.fr/~jeremy.tahar/portrait-chinois/
 
+Lien de mon portrait chinois sur mon site perso: https://jeremytahar.com/portrait-chinois/
 
 Lien tableur Opquast: https://docs.google.com/spreadsheets/d/17wUY4Y1FyAMndiYNZnpM3_CzORI7GVUFXRhEbduTgVI/edit?usp=sharing
 
