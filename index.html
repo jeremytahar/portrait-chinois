@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Chinois | Jérémy Tahar</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="dark-mode">
+    
+    <div class="info">
+       
+        <div class="info-modal modal-invisible">
+            <i class="iconoir-xmark"></i>
+            <h1>Qu'est-ce qu'un portrait chinois ?</h1>
+            <p>
+                Dans le domaine littéraire, un portrait chinois est un jeu permettant de déceler certains aspects de la
+                personnalité d'un individu ou d'identifier ses goûts ou ses préférences personnelles, au travers d'un
+                questionnaire basé sur l'identification à des personnes, des objets ou des éléments divers. <br> <br>
+                Plus d'informations sur ce jeu littéraire <a href="https://fr.wikipedia.org/wiki/Portrait_chinois#:~:text=Description-,Jeu%20littéraire,objets%20ou%20des%20éléments%20divers." target="_blank">ici</a>
+            </p>
+            
+        </div>
+    </div>
+    <main>
+        <header>
+            <a id="top"></a>
+            <i class="theme iconoir-sun-light"></i> 
+            <i class="info-btn iconoir-info-circle"></i>
+            <div class="header-text" data-aos="fade-down" data-aos-duration="1000">
+                <h1>Mon portrait chinois</h1>
+                <h2>Jérémy Tahar</h2>
+                <p>Actuellement en BUT Métiers du Multimédia et de l'Internet, nous apprenons le développement web à
+                    travers des projets tels que ce portrait chinois. En réalisant ce premier projet de développement
+                    web, nous apprenons à développer de manière assidue et professionnelle.<br>
+                    Je vous souhaite une bonne visite sur mon portrait chinois qui vous permettra d'en apprendre plus
+                    sur moi !</p>
+                <a href="#breakingBad" class="iconoir-arrow-down-circle-solid"></a>
+            </div>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#top" class="home" aria-label="Retour en haut de page - Accueil"><i class="iconoir-home"></i></a></li>
+                    <li><a href="#breakingBad" class="circle" data-image="img/serie.png" aria-label="Aller à la catégorie Breaking Bad"></a></li>
+                    <li><a href="#flash" class="circle" aria-label="Aller à la catégorie Flash"></a></li>
+                    <li><a href="#menton" class="circle" aria-label="Aller à la catégorie Menton"></a></li>
+                    <li><a href="#mercedes" class="circle" aria-label="Aller à la catégorie Mercedes"></a></li>
+                    <li><a href="#theNorthFace" class="circle" aria-label="Aller à la catégorie The North Face"></a></li>
+                    <li><a href="#GTAV" class="circle" aria-label="Aller à la catégorie GTA V"></a></li>
+                    <li><a href="#couscous" class="circle" aria-label="Aller à la catégorie Couscous"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="popup popup-invisible">
+            <img class="popup-img" src="d" alt="">
+            <button class="cache-fenetre iconoir-xmark"></button>
+        </div>
+
+        <div class="liste-analogies"></div>
+
+
+        <form method="get" id="form">
+            <h3>À toi de jouer !</h3>
+            <label for="email">Adresse e-mail (du type mail@exemple.com)</label>
+            <input type="email" placeholder="Ton adresse e-mail" id="email" required>
+            <fieldset>
+                <legend>Crée ta catégorie</legend>
+                <label for="analogieNom">Si j'étais...</label>
+                <input type="text" placeholder="Nom de ton analogie" id="analogieNom" required>
+                <label for="analogieValeur">je serais...</label>
+                <input type="text" placeholder="Valeur de ton analogie" id="analogieValeur" required>
+                <label for="analogieExplication">Explication</label>
+                <input type="text" placeholder="Explication de ton analogie" id="analogieExplication" required>
+                <label for="img">Image (.jpg, .png, .gif)</label>
+                <input type="url" name="url" id="img" placeholder="Lien de ton image" required>
+            </fieldset>
+            <div id="formMessage" class="formMessage"></div>
+            <input type="button" value="Créer mon analogie" class="form-btn">
+        </form>
+
+        <div class="analogie-user"></div>
+
+        <footer>
+            <p>Copyright © 2024 Jérémy Tahar - Tout droits réservés -<button class="mentions-btn">Mentions
+                    Légales</button></p>
+            <div class="mentions-legales modal-invisible">
+                <i class="iconoir-xmark"></i>
+                <h1>Mentions Légales</h1>
+                <h2>Éditeur</h2>
+                <p>Directeur de la publication, Conception graphique et Développement : Jérémy Tahar, étudiant de
+                    l’Université Gustave Eiffel <br>
+                    Hébergeur : Université Gustave Eiffel <br>
+                    Université Gustave Eiffel : 5 boulevard Descartes - Champs-sur-Marne - 77454 Marne-la-Vallée Cedex2
+                    - Tél : 33(1).60.95.75.00 - Fax : 33(1).60.95.75.75</p>
+                <h2>Données personnelles</h2>
+                <p>Le formulaire permettant la création d’une analogie personnalisée recueil votre adresse de courriel
+                    et votre adresse IP. Pour toute question portant sur la collecte ou le traitement de vos données à
+                    caractère personnel par l’UPEM, vous pouvez saisir la personne responsable du traitement des données
+                    qui est : Philippe Gambette (philippe.gambette@univ-eiffel.fr) Les fichiers détenus par l'UPEM qui
+                    comportent des données à caractère personnel ne seront jamais transmis à des tiers et ne feront
+                    jamais l'objet d'une commercialisation.</p>
+                <h2>Images (ouvertures dans des nouvelles fenêtres)</h2>
+                <ul>
+                    <li><a href="https://www.deviantart.com/nabucodorozor/art/Breaking-Bad-Wallpaper-245416766"
+                            target="_blank" aria-label="Redirection vers le site source de l'image Breaking Bad">Breaking
+                            Bad</a></li>
+                    <li><a href="https://www.deviantart.com/yvanquinet/art/Flash-518390081" target="_blank" aria-label="Redirection vers le site source de l'image Flash">Flash</a>
+                    </li>
+                   
+                    <li>Image par <a
+                            href="https://pixabay.com/fr/users/vividautophotography-13363872/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4418195"
+                            target="_blank" aria-label="Redirection vers le site source de l'image Mercedes">J
+                            Morris</a> de <a
+                            href="https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4418195"
+                            target="_blank">Pixabay</a>
+                    </li>
+                    <li>Image par <a
+                            href="https://pixabay.com/fr/users/lecreusois-25340/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7093335"
+                            target="_blank" aria-label="Redirection vers le site source de l'image Menton">Fabien </a>de
+                        <a href="https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7093335"
+                            target="_blank">Pixabay</a>
+                    </li>
+                    <li><a href="https://commons.wikimedia.org/wiki/File:The_North_Face.png">Nanang Stywn</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" aria-label="Redirection vers le site source de l'image The North Face">CC BY-SA 4.0</a>, via Wikimedia Commons</li> 
+                    <li><a href="https://www.deviantart.com/thejester26/art/GTA-V-Wallpaper-268598623"
+                            target="_blank" aria-label="Redirection vers le site source de l'image GTA V">Grand Theft Auto V</a></li>
+                    <li><a href="https://commons.wikimedia.org/wiki/File:Moroccan_Couscous_2014.jpg"
+                            target="_blank">AnouarNACH</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0"
+                            target="_blank" aria-label="Redirection vers le site source de l'image Couscous">CC BY-SA 4.0</a>, via Wikimedia
+                        Commons</li>
+                </ul>
+            </div>
+
+
+        </footer>
+    </main>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/theme.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

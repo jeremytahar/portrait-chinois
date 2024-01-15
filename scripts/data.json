@@ -1,0 +1,65 @@
+[
+    {
+        "analogie": "une série",
+        "valeurAnalogie": "Breaking Bad",
+        "explication": "Cette série est un chef d'oeuvre. Toute l'intrigue qui se développe et la manière dont les personnages évoluent est incroyable. Elle fait partie de mes séries préférées !",
+        "urlImage": "img/breaking-bad.jpg",
+        "altImage": "Image de Breaking Bad, cliquez pour agrandir",
+        "id": "breakingBad",
+        "numéro": "01"
+    },
+    {
+        "analogie": "un super-héros",
+        "valeurAnalogie": "Flash",
+        "explication": " Au delà de la série qui est incroyable, je trouve le pouvoir de Flash trop cool et la manière dont il l'utilise tout aussi intéressante, c'est le super-héros que je voudrais être.",
+        "urlImage": "img/flash.jpg",
+        "altImage": "Image de Flash, cliquez pour agrandir",
+        "id": "flash",
+        "numéro": "02"
+    },
+    {
+        "analogie": "une ville",
+        "valeurAnalogie": "Menton",
+        "explication": "La ville de Menton est très importante pour moi, c'est une très belle ville qui mélange à la fois la montagne et la mer. C'est très agréable d'aller en vacances à Menton, je recommande !",
+        "urlImage": "img/menton.jpg",
+        "altImage": "Image de la ville de Menton, cliquez pour agrandir",
+        "id": "menton",
+        "numéro": "03"
+    },
+    {
+        "analogie": "une voiture",
+        "valeurAnalogie": "la Mercedes AMG GT63S",
+        "explication": "C'est une voiture qui mélange performance et confort, et c'est une de mes voitures préférées.",
+        "urlImage": "img/mercedes.jpg",
+        "altImage": "Image de Mercedes AMG GT63S, cliquez pour agrandir",
+        "id": "mercedes",
+        "numéro": "04"
+    },
+    {
+        "analogie": "une marque",
+        "valeurAnalogie": "The North Face",
+        "explication": "C'est une marque que j'apprécie beaucoup pour les vêtements et accessoires qu'elle propose. Leurs vêtements et accessoires sont bien travaillés et de bonne qualité.",
+        "urlImage": "img/theNorthFace.jpg",
+        "altImage": "Image de The North Face, cliquez pour agrandir",
+        "id": "theNorthFace",
+        "numéro": "05"
+    },
+    {
+        "analogie": "un jeu vidéo",
+        "valeurAnalogie": "Grand Theft Auto V",
+        "explication": "Même si à l'heure actuelle ce n'est pas le jeu auquel je joue le plus, il reste mon jeu préféré, la multitude de choses que l'on peut faire dans ce jeu est incroyable, on peut littéralement tout faire sur GTA V.",
+        "urlImage": "img/GTAV.jpg",
+        "altImage": "Image de GTA V, cliquez pour agrandir",
+        "id": "GTAV",
+        "numéro": "06"
+    },
+    {
+        "analogie": "un plat",
+        "valeurAnalogie": "le couscous",
+        "explication": "Je ne vous apprend rien en disant que le couscous est un plat incroyable, qui se mange à n'importe quelle saison. Ce n'est pas pour rien que ce plat a été élu plat préféré des français en 2022.",
+        "urlImage": "img/couscous.jpg",
+        "altImage": "Image de couscous, cliquez pour agrandir",
+        "id": "couscous",
+        "numéro": "07"
+    }
+]
