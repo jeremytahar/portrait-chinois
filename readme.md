@@ -1,4 +1,4 @@
-Lien de mon portrait chinois sur mon site perso: https://jeremytahar.com/portrait-chinois/
+Lien de mon portrait chinois : https://jeremytahar.github.io/portrait-chinois/
 
 Protocole d'installation sur un serveur local XAMPP:
 - Lancer les services Apache, MySQL et Filezilla
